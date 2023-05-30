@@ -1,0 +1,6 @@
+derby.log
+metastore_db/
+base/__pycache__/
+**/__pycache__/
+base/README.txt
+
