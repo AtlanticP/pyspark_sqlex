@@ -1,0 +1,44 @@
+Table Battles.
+Timing is on.
+ column_name |          data_type          
+-------------+-----------------------------
+ name        | character varying
+ date        | timestamp without time zone
+(2 rows)
+
+Time: 12,191 ms
+
+Table Classes
+Timing is on.
+ column_name  |     data_type     
+--------------+-------------------
+ class        | character varying
+ type         | character varying
+ country      | character varying
+ numguns      | smallint
+ bore         | real
+ displacement | integer
+(6 rows)
+
+Table Ships
+Time: 9,606 ms
+Timing is on.
+ column_name |     data_type     
+-------------+-------------------
+ name        | character varying
+ class       | character varying
+ launched    | smallint
+(3 rows)
+
+Time: 7,716 ms
+
+Table Outcomes
+Timing is on.
+ column_name |     data_type     
+-------------+-------------------
+ ship        | character varying
+ battle      | character varying
+ result      | character varying
+(3 rows)
+
+Time: 7,664 ms

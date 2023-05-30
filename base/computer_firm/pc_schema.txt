@@ -1,0 +1,13 @@
+Timing is on.
+ column_name |     data_type     
+-------------+-------------------
+ code        | integer
+ model       | character varying
+ speed       | smallint
+ ram         | smallint
+ hd          | real
+ cd          | character varying
+ price       | numeric
+(7 rows)
+
+Time: 28,663 ms

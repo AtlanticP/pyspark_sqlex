@@ -1,0 +1,57 @@
+laptop table
+------------
+Timing is on.
+ column_name |     data_type     
+-------------+-------------------
+ code        | integer
+ model       | character varying
+ speed       | smallint
+ ram         | smallint
+ hd          | real
+ price       | numeric
+ screen      | smallint
+(7 rows)
+
+Time: 64,668 ms
+
+printer table
+------------
+Timing is on.
+ column_name |     data_type     
+-------------+-------------------
+ code        | integer
+ model       | character varying
+ color       | character
+ type        | character varying
+ price       | numeric
+(5 rows)
+
+Time: 10,514 ms
+
+product table
+-------------
+Timing is on.
+ column_name |     data_type     
+-------------+-------------------
+ maker       | character varying
+ model       | character varying
+ type        | character varying
+(3 rows)
+
+Time: 7,649 ms
+
+pc table
+---------
+Timing is on.
+ column_name |     data_type     
+-------------+-------------------
+ code        | integer
+ model       | character varying
+ speed       | smallint
+ ram         | smallint
+ hd          | real
+ cd          | character varying
+ price       | numeric
+(7 rows)
+
+Time: 28,663 ms
